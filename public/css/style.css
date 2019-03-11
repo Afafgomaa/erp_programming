@@ -1,0 +1,172 @@
+*{
+	padding:0;
+	margin: 0;
+	direction: rtl;
+}
+
+
+
+ul {
+	list-style: none;
+}
+li {
+	display: inline-block;
+	margin-left: 15px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	
+}
+i {
+	display:inline-block;
+	
+}
+ li a {
+	padding: 10px 24px;
+	border:1px solid #ededed;
+	color: #fff;
+
+
+}
+
+ li a:hover {
+	padding: 12px 26px;
+	border:1px solid #1c415c;
+	color: #fff;
+	text-decoration: none;
+	border:1px solid #ededed;
+
+
+
+}
+label {
+margin-bottom: 5px;
+	color: #337AB7;
+}
+
+
+li a {
+	
+	background-color: #1c415c;
+	color: #aec8d7;
+}
+img {
+     
+	width:90px;
+	height:90px;
+	margin: 44px;
+	margin-top: 0;
+
+}
+.container h1 {
+	color: #424242;
+}
+body {
+background-color: #908d8d;
+color: #565656;
+box-sizing: border-box;
+background-color: #fff;
+
+}
+.center {
+	margin: 50px;
+	text-align: center;
+	margin-right: 180px;
+}
+
+.employer {
+	width: 250px;
+	background-color: #5ed3b6;
+	border:1px solid #cbd9d5;
+	height: 250px;
+	display: inline-block;
+	margin: 20px;
+	padding: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #fff;
+	font-size: 21px;
+	font-weight: bold;
+}
+
+.color1 {
+	background-color: #c7ac8e;
+}
+.color2 {
+	background-color: #50bfea;
+}
+.color3 {
+	background-color: #f7b336;
+}
+.color4 {
+	background-color: #f37e53;
+}
+.color5 {
+	background-color: #a3cda5;
+}
+
+form {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+thead, tbody ,th{
+	text-align: center;
+}
+thead {
+	background-color: #c7ac8e;
+}
+table {
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+button {
+	background-color: #c7ac8e;
+}
+.nav {
+
+	width: 100%;
+	height: 50px;
+	background-color: #ebebeb;
+	position: fixed;
+	border-bottom: 1px solid #a9a9a95e;
+	
+}
+.nav >a {
+	margin-right: 15px;
+	color: #1c415c;
+	text-decoration: none;
+	font-size: 27px;
+	font-weight: bold;
+
+}
+.aside {
+	position: absolute;
+	    right: 0px;
+    top: 50px;
+    z-index: -1;
+	width: 230px;
+	background-color: #ebebeb;
+	height: 100vh;
+	color: #1c415c;
+	
+}
+.aside .aside-link li {
+background-color: #ccc;
+color: #fff;
+
+}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+  font-size: 110%;
+  display: inline;
+}
